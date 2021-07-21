@@ -2,12 +2,12 @@ import cv2
 import numpy as np
 from time import sleep
 
-largura_min=80 #Largura minima do retangulo
-altura_min=80 #Altura minima do retangulo
+largura_min=80 
+altura_min=80
 
-offset=6 #Erro permitido entre pixel  
+offset=6 
 
-pos_linha=550 #Posição da linha de contagem 
+pos_linha=550
 
 delay= 60 #FPS do vídeo
 
